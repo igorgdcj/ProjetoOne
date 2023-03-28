@@ -1,0 +1,135 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 10px 100px 10px 100px;
+    background-color: #000;
+}
+
+header nav a{
+    float: left;
+}
+
+header nav ul{
+    float: right;
+}
+
+a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-p ul li{
+    display: inline;
+}
+
+#menu-p ul li a{
+    color: rgb(190, 190, 190);
+    padding: 10px 20px;
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: rgb(51, 204, 51);
+    transition: 0.7s;
+    border-radius: 0px 15px 0px 15px;
+    padding: 0 10px 0 10px;
+}
+
+#menu-p ul li a:hover{
+    color:#f2f2f2;
+    transition: 0.4s;
+}
+
+#tf-principal {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px 0px;
+}
+
+#pessoa-borda {
+    border-radius: 50px 50px;
+    border: 5px solid green;
+}
+
+em {
+    color: green;
+    font-size: 25px;
+}
+
+p {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#tf-quem-sou {
+    padding-bottom: 50px;
+    float: left;
+    width: 40%;
+}
+
+#tf-quem-sou h3 {
+    color: green;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+#tf-quem-sou p {
+    padding: 10px 40px;
+}
+
+#foto-aside {
+    float: right;
+    width: 30%;
+    padding: 10px 15px;
+}
+
+hr {
+    clear: both;
+    margin: 10px;
+}
+
+#projetos h4 {
+    color: green;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.projetos-img {
+    width: 32%;
+    float: left;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+#contato h5 {
+    color: green;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#img-footer {
+    margin-top: 20px;
+    width: 90px;
+}
